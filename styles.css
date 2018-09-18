@@ -1,6 +1,6 @@
 /* background color */
 body {
-    background-color: white;
+    background-color: rgb(240, 240, 242);
 }
 
 /* NAV BAR MODIFICATION */
@@ -9,7 +9,7 @@ ul {
  margin: 0;
  padding: 0;
  overflow: hidden;
- background-color: lightgrey;
+ background-color: rgb(100,100,100);
 }
 
 ul > li {
@@ -18,7 +18,7 @@ ul > li {
 
 li a {
     display: block;
-    color: black;
+    color: white;
     padding: 10px 10px;
     text-decoration: none;
     text-align: center;
@@ -26,8 +26,17 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: lightblue;
-    color: white;
+    background-color: lightyellow;
+    color: black;
 }
 
-/*  */
+/* TEXT & FONT MODIFICATION */
+
+/* HIT LIST MODIFICATION */
+#strip_district {
+  background-color: white;
+}
+
+#pnc_park {
+  background-color: lightyellow;
+}
