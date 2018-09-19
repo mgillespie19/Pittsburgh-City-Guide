@@ -1,22 +1,19 @@
 /* background color */
 body {
     background-color: rgb(240, 240, 242);
+    margin-left: 150px;
 }
 
 /* NAV BAR MODIFICATION */
-ul {
+nav {
  list-style-type: none;
- margin: 0;
- padding: 0;
- overflow: hidden;
+ left: 0px;
  background-color: rgb(100,100,100);
+ float:left;
+ position: fixed;
 }
 
-ul > li {
-  float: left;
-}
-
-li a {
+nav a {
     display: block;
     color: white;
     padding: 10px 10px;
@@ -31,6 +28,11 @@ li a:hover {
 }
 
 /* TEXT & FONT MODIFICATION */
+
+h1 {
+  text-align: center;
+}
+
 
 /* HIT LIST MODIFICATION */
 #strip_district {
