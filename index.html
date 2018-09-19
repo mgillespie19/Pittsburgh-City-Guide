@@ -4,18 +4,11 @@
 html
   table
   IMAGES [Height, width, image size correct]
-    Welcome
-    Strip District
     Mount washington
     lawrenceville
     pnc park
-    randyland
 
 css
-Change some text color on your page, using a different color format than you used for the background colors.
-Change the font of some text on your page
-Change the font size of some text on your page
-Change the font weight of some text on your page
 Make some text on your page either italic, underlined, or all caps using CSS by targeting an ID or CLASS.
 Add some line height to the paragraphs on your page
 Change the alignment of some text- left, right, or justify.
@@ -52,23 +45,26 @@ Change the background color of your form text inputs when they are in focus (i.e
         <div id="article_heading">
             <h1> Max Gillespie's Pittsburgh Hitlist </h1>
         </div>
-        <div id="website_welcome">
-            <p>
-                Hi! Welcome to my website about the best places to visit in
-                Pittsburgh. It's great to have you here! I’m a lifelong Pittsburgh
-                resident, and am fiercely in love with the city.
-            </p>
-            <p>
-                While many people have heard of Pittsburgh, not many have been,
-                and I think that’s a shame. While it’s not the largest city, it’s
-                a charming mix of small-town and big city, the perfect pit stop on
-                a road trip as you move from midwest into northeast or vice versa.
-            </p>
-            <p>
-              I’ve spent countless hours exploring the city, and this is a my
-              must-hit list: a non-comprehensive list of things that love to do
-              while I’m home, and try to do as often as possible. Enjoy!
-            </p>
+        <div id="website_welcome" class="container">
+            <div id="welcome-text">
+                <p id="welcome_line1">
+                    Hi! Welcome to my website about the best places to visit in
+                    Pittsburgh. It's great to have you here! I’m a lifelong Pittsburgh
+                    resident, and am fiercely in love with the city.
+                </p>
+                <p>
+                    While many people have heard of Pittsburgh, not many have been,
+                    and I think that’s a shame. While it’s not the largest city, it’s
+                    a charming mix of small-town and big city, the perfect pit stop on
+                    a road trip as you move from midwest into northeast or vice versa.
+                </p>
+                <p>
+                  I’ve spent countless hours exploring the city, and this is a my
+                  must-hit list: a non-comprehensive list of things that love to do
+                  while I’m home, and try to do as often as possible. Enjoy!
+                </p>
+            </div>
+            <img id="welcomeImage" src="PGH-Bridge.png" alt = "Welcome Background" class="image">
         </div>
 
         <!-- LOCATIONS -->
@@ -95,7 +91,8 @@ Change the background color of your form text inputs when they are in focus (i.e
                   you can get a truly one-of-a-kind sandwich piled high with fries
                   and coleslaw.
                 </p>
-
+                <img src="primanti.png" alt="Primanti's Sandwich" class="image">
+                <img src="pamelas.jpg" alt="Pamela's Pancakes" class="image">
             </div>
         </div>
         <div id="mt_washington">
@@ -147,9 +144,9 @@ Change the background color of your form text inputs when they are in focus (i.e
                   (deconstructed sushi bowls), Boba Tea (I think most people
                   know what this is) and much, much more!
                 </p>
-                <p>
 
-                </p>
+                <img src="banhmi.png" alt="Banh Mi & Tea" class="image">
+
                 <div id="map" style="width:550px;height:400px">
                     <script>
                     function lawrenceville() {
@@ -187,6 +184,8 @@ Change the background color of your form text inputs when they are in focus (i.e
                     watching them get brutally defeated against pretty much any
                     team they play, all while enjoying a breathtaking view!
                 </p>
+
+                <img src="pnc_park.jpg" alt="look at that view!" class="image">
             </div>
         </div>
         <div id="randyland">
@@ -212,6 +211,9 @@ Change the background color of your form text inputs when they are in focus (i.e
                     community as parts of his ‘exhibit’, the building he owned
                     and lived in.
                 </p>
+
+                <img src="randyland.png" alt="Randyland" class="image">
+
                 <p>
                     Some quick facts about Randyland:
                 </p>
@@ -228,6 +230,7 @@ Change the background color of your form text inputs when they are in focus (i.e
                     visits it.
                 </p>
 
+                <img src="randyland_2.jpg" src="Randyland Building" class="image">
             </div>
         </div>
 
